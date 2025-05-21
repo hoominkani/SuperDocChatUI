@@ -4,6 +4,8 @@ Next.js chatbot UI powered by ChatPDF API.
 
 [日本語版はこちら](#japanese)
 
+<img width="986" alt="Image" src="https://github.com/user-attachments/assets/18d06fce-e9b3-4a4c-87ee-8ab981ebb1e6" />
+
 ## Features
 
 * Chat interface for asking questions
