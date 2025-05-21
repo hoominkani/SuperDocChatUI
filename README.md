@@ -25,6 +25,7 @@ Next.js chatbot UI powered by ChatPDF API.
 ```bash
 git clone <repo_url>
 cp .env.example .env.local
+cp config/site.ts.example config/site.ts
 ```
 
 Add your credentials to `.env.local`:
@@ -112,6 +113,7 @@ ChatPDF API を使った PDF 質問用チャットアプリケーション
 ```bash
 git clone <リポジトリURL>
 cp .env.example .env.local
+cp config/site.ts.example config/site.ts
 ```
 
 `.env.local` に以下を記入：
