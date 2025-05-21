@@ -25,7 +25,7 @@ Next.js chatbot UI powered by ChatPDF API.
 ## Setup
 
 ```bash
-git clone <repo_url>
+git clone git@github.com:hoominkani/SuperDocChatUI.git
 cp .env.example .env.local
 cp config/site.ts.example config/site.ts
 ```
@@ -113,7 +113,7 @@ ChatPDF API を使った PDF 質問用チャットアプリケーション
 ## セットアップ
 
 ```bash
-git clone <リポジトリURL>
+git clone git@github.com:hoominkani/SuperDocChatUI.git
 cp .env.example .env.local
 cp config/site.ts.example config/site.ts
 ```
