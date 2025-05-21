@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - next_modules:/app/node_modules
+      - next_cache:/app/.next/cache
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+
+volumes:
+  next_modules:
+  next_cache:
